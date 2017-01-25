@@ -7,6 +7,9 @@ let g:BASH_AuthorName   = 'RohitSharma'
 let g:BASH_Email        = 'rohit@amagi.com'
 let g:BASH_Company      = 'Amagi Media labs'
 
+" Update time for vim plugin 
+set updatetime=250
+
 " Change curser position by mouse
 set mouse=a
 

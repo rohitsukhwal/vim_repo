@@ -18,9 +18,9 @@ $
 
 # Command Line History (newest to oldest):
 :qall
+:w
 :wqall
 :wqa
-:w
 :q
 :set nonumber
 :Explore
@@ -610,26 +610,26 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	    echo $out 
-""1	LINE	0
-	                self.__handle_exit_break(recv_msg)
+""0	LINE	0
+	worksheet.set_column(2,2,70)
+"1	LINE	0
+	worksheet.set_column(0,0,70)
 "2	LINE	0
-	        echo $out "end"
+	worksheet = workbook.add_worksheet()
 "3	LINE	0
-	        echo $out 
+	workbook = xlsxwriter.Workbook('intel_qc_checklist.xlsx',{'constant_memory':True})
 "4	LINE	0
-	    ffmpeg -i $1 -ss ${2} -t ${time} -vcodec copy -acodec copy ${name}
+	                self.__handle_exit_break(recv_msg)
 "5	LINE	0
-	    echo $tym
+	        echo $out "end"
 "6	LINE	0
-	    echo $tym
+	        echo $out 
 "7	LINE	0
-	    echo $tym
+	    ffmpeg -i $1 -ss ${2} -t ${time} -vcodec copy -acodec copy ${name}
 "8	LINE	0
 	    echo $tym
 "9	LINE	0
-	
+	    echo $tym
 "a	CHAR	0
 	606
 <:q€kd€ku€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd:j€kbh€kd€ku€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€ku€ku€ku€ku€ku€ku€ku€ku€ku€kd€kuhlhlllllllllllllllllllllllhhhhhhhlllllllllllllllhjjkkkkjkhlhlhjkjkjkjkkjkk€ku€ku€ku€kd€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kd€kd€kd€kd€ku€kl€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kln€ku€kln€kun€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kl€kr€kr€kr€kl€kl€kl€kl€kl€kl€kl€kl€kd€ý,€ý.€ü €ý,€ü €ý.N€ku€kd€ý,€ý.€ü €ý,€ü €ý.€ý,€ý.€ü €ý,€ü €ý.€ý,€ý.€ü €ý,€ü €ý.
@@ -643,18 +643,25 @@ $
 # File marks:
 'H  139  0  ~/Desktop/test.txt
 'P  831  34  ~/bb/MatrixExamples/DtMxAvRecorderDemo_port2/Source/DtMxAvRecorderDemo.cpp
-'0  223  41  ~/Desktop/plum/plum_base/muxer/muxer_class.py
-'1  63  22  ~/Desktop/o
-'2  2  0  ~/.config/sublime-text-3/Installed Packages/Vintageous.sublime-package
-'3  16  9  ~/Downloads/software/Vintageous/bin/build.sh
-'4  5  8  ~/temp.txt
-'5  10  41  ~/share/1. Spartacus Blood and Sand S01 [Pahe.in]/cut_video.sh
-'6  9  1  ~/share/1. Spartacus Blood and Sand S01 [Pahe.in]/cut_video.sh
-'7  10  23  ~/share/1. Spartacus Blood and Sand S01 [Pahe.in]/cut_video.sh
-'8  13  4  ~/share/1. Spartacus Blood and Sand S01 [Pahe.in]/cut_video.sh
-'9  12  21  ~/share/1. Spartacus Blood and Sand S01 [Pahe.in]/cut_video.sh
+'0  11  0  ~/.vimrc
+'1  14  8  ~/Desktop/mimas/intel_qc.py
+'2  15  0  ~/Desktop/mimas/intel_qc.py
+'3  13  0  ~/Desktop/mimas/intel_qc.py
+'4  52  109  ~/Desktop/mimas/intel_qc.py
+'5  223  41  ~/Desktop/plum/plum_base/muxer/muxer_class.py
+'6  63  22  ~/Desktop/o
+'7  2  0  ~/.config/sublime-text-3/Installed Packages/Vintageous.sublime-package
+'8  16  9  ~/Downloads/software/Vintageous/bin/build.sh
+'9  5  8  ~/temp.txt
 
 # Jumplist (newest first):
+-'  11  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  14  8  ~/Desktop/mimas/intel_qc.py
+-'  1  0  ~/Desktop/mimas/intel_qc.py
+-'  15  0  ~/Desktop/mimas/intel_qc.py
+-'  13  0  ~/Desktop/mimas/intel_qc.py
+-'  52  109  ~/Desktop/mimas/intel_qc.py
 -'  223  41  ~/Desktop/plum/plum_base/muxer/muxer_class.py
 -'  30  21  ~/Desktop/plum/plum_base/muxer/muxer_class.py
 -'  363  16  ~/Desktop/plum/plum_base/muxer/muxer_class.py
@@ -750,6 +757,21 @@ $
 -'  1  0  ~/work/old/dvb_to_ts/inc/dvb_to_ts.hpp
 
 # History of marks within files (newest to oldest):
+
+> ~/.vimrc
+	"	11	0
+	^	11	18
+	.	11	17
+	+	10	29
+	+	11	17
+
+> ~/Desktop/mimas/intel_qc.py
+	"	14	8
+	.	15	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
 
 > ~/Desktop/plum/plum_base/muxer/muxer_class.py
 	"	223	41
@@ -1976,10 +1998,4 @@ $
 	"	1	79
 
 > ~/Desktop/TL_Mimas_KeywordCount-20161221_Rx_v1.x.x.csv
-	"	1	0
-
-> ~/Desktop/asrun_2016-12-21_i50_021.csv
-	"	1	0
-
-> ~/Desktop/mimas/continous_deployment_scripts/test_jenkins_config.csv
 	"	1	0
