@@ -35,7 +35,11 @@ set shiftwidth=4
 " syntax Highlighting
 set syntax=on
 
+" 
+" set background=dark
+
 " fresh citrus breeze
+" colorscheme solarized 
 colorscheme inkpot
 " colorscheme ampresent 
 
@@ -68,6 +72,7 @@ nnoremap f "_d
 vnoremap f "_d
 nnoremap ff "_dd
 vnoremap ff "_dd
+
 
 " Spacebar selects word under cursor
 map <space> viw
@@ -124,5 +129,13 @@ map <C-t><right> :tabn<cr>
 
 let g:ycm_global_ycm_extra_conf = '/home/rohit/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
 
+" syntastic config 
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
 
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
