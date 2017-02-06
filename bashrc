@@ -119,7 +119,6 @@ export PATH=$PATH:/opt/toolchain/default/bin/
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
-source ~/perl5/perlbrew/etc/bashrc
 alias moto_mount="mtpfs -o allow_other /media/motog"
 alias moto_umount="fusermount -u /media/motog"
 
@@ -143,6 +142,8 @@ alias gst='git status'
 alias gc='git commit'
 alias gco='git checkout'
 alias gl='git pull'
+alias gf='git fetch'
+alias gfo='git fetch origin'
 alias gpom="git pull origin master"
 alias gp='git push'
 alias gd='git diff | mate'
