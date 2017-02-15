@@ -72,6 +72,8 @@ case "$TERM" in
         ;;
 esac
 
+export PS1='\[\033[0;35m\]\u@\h\[\033[0;33m\] \W\[\033[00m\]: '
+
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
